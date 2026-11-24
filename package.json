@@ -1,0 +1,91 @@
+{
+  "platformName": "RPSC Political Science Hub",
+  "version": "1.0.0",
+  "targetExams": [
+    "RPSC School Lecturer (1st Grade) - Political Science",
+    "RPSC Assistant Professor - Political Science",
+    "RAS Mains - Political & Administrative System",
+    "Foundation Crash Course"
+  ],
+  "structure": {
+    "separatedFiles": [
+      "index.html",
+      "styles.css",
+      "app.js"
+    ],
+    "storageEngine": "localStorage"
+  },
+  "monetization": {
+    "currency": "INR",
+    "promoCodes": [
+      {
+        "code": "RPSC10",
+        "discountPercent": 10
+      }
+    ],
+    "paymentMethodsSimulated": [
+      "UPI QR / UPI ID",
+      "Debit / Credit Card",
+      "NetBanking"
+    ],
+    "productionGatewaysRecommended": [
+      "Razorpay",
+      "Cashfree"
+    ]
+  },
+  "features": {
+    "courseStore": true,
+    "categoryFilters": [
+      "All Batches",
+      "1st Grade",
+      "Assistant Professor",
+      "RAS Mains",
+      "Free"
+    ],
+    "interactiveClassroom": {
+      "videoPlayer": true,
+      "playlistSwitcher": true,
+      "downloadableNotes": true,
+      "dppQuiz": {
+        "questionsPerLecture": 5,
+        "instantExplanations": true
+      },
+      "doubtsBoard": true
+    },
+    "mockTestSeries": {
+      "countdownTimer": true,
+      "questionPalette": true,
+      "negativeMarking": -0.66,
+      "scoreSummary": true
+    },
+    "adminStudio": {
+      "addBatches": true,
+      "addLecturesWithNotesAndDpp": true
+    }
+  },
+  "sampleBatches": [
+    {
+      "id": "rpsc-1st-grade-polsci",
+      "title": "RPSC 1st Grade Political Science Target Batch",
+      "category": "1st Grade",
+      "priceINR": 999,
+      "isFree": false,
+      "modules": [
+        "Western Political Thought (Plato, Aristotle, Machiavelli, Hobbes, Locke, Rousseau)",
+        "Indian Political System & Constitution",
+        "International Relations & Comparative Politics"
+      ]
+    },
+    {
+      "id": "rpsc-free-foundation",
+      "title": "RPSC Political Science Free Foundation & Demo Batch",
+      "category": "Free",
+      "priceINR": 0,
+      "isFree": true,
+      "modules": [
+        "Syllabus Decoder & Exam Strategy",
+        "Core Concepts & Daily Practice Problems (DPP)"
+      ]
+    }
+  ]
+}

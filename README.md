@@ -18,4 +18,3 @@ An interactive EdTech Learning Management System (LMS) web application built for
 ├── index.html   # Page layout, modals, classroom view, and test interface
 ├── styles.css   # Custom styles, responsive layout, and animations
 └── app.js       # State management, catalog, checkout, classroom, mock test, and admin logic
-<img width="926" height="314" alt="image" src="https://github.com/user-attachments/assets/b131aaa6-bcbf-42ab-a00c-5fe3c7ccc1bc" />
